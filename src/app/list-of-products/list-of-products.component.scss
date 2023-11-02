@@ -1,0 +1,63 @@
+$deep-purple : #3f51b5;
+
+.side-nav-container {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.mat-mdc-table .mat-mdc-header-cell{
+    font-size: large;
+    vertical-align: middle;
+    background-color: $deep-purple;
+    color: white;
+}
+.mat-mdc-raised-button{
+    margin-left: 10%;
+}
+.app-sidenav {
+    width: 230px;
+}
+
+mat-sidenav-content {
+    display: flex;
+}
+
+mat-nav-list mat-icon {
+    display: block;
+}
+
+mat-toolbar span {
+    position: relative;
+    left: 41%;
+}
+
+::ng-deep .mat-column-URL {
+    min-width: 500px;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+::ng-deep .mat-column-Description {
+    min-width: 300px;
+}
+
+mat-sidenav-content {
+    flex-direction: column;
+}
+
+.mat-toolbar-row {
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.no-record-found-span {
+    font-weight: 200;
+    font-size: 25px;
+    padding: 10px 10px 10px 17%;
+}
+.image-style{
+    height: 100px;
+    width: 100px;
+}
